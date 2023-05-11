@@ -10,6 +10,9 @@ public class Destroyer : MonoBehaviour
     CountdownTool destroyerCountdown;
 
     // Start is called before the first frame update
+    //Random.Range (1,20); 1-20 sn arasında rastgele sayı oluşturur
+    //Oluşturulan sayılar "ToplamSure"(destroyerCountdown da kuşlanılan) içine atanır
+
     void Start()
     {
         destroyerCountdown = gameObject.AddComponent<CountdownTool>();
@@ -18,6 +21,9 @@ public class Destroyer : MonoBehaviour
     }
 
     // Update is called once per frame
+    // patlamaPrefab kullanılan prefab ta kullanılacak
+    // Destroy ise oluşan objeleri belli süre zarında yok edecek
+    // "Bitti" sayaç kodundan çekildi
     void Update()
     {
         if (destroyerCountdown.Bitti)

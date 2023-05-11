@@ -34,7 +34,7 @@ public class CountdownTool : MonoBehaviour
     }
 
     /// <summary>
-    /// Sayacı Çalıştırır
+    /// Sayacı Çalıştırır 
     /// </summary>
     public void Calistir()
     {
@@ -46,7 +46,7 @@ public class CountdownTool : MonoBehaviour
         }
     }
 
-   
+   //Update içindeki kod bloğu toplam zaman ile geçen süre koşuluna bakar
 
     // Update is called once per frame
     void Update()

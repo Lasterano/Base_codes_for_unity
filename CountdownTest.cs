@@ -7,6 +7,8 @@ public class CountdownTest : MonoBehaviour
     CountdownTool countdownTool;
     float baslangicZamani;
     // Start is called before the first frame update
+    //CountdownTool adlı kod bloğuna erişim sağlayarak o dizindeki sayaç süresine 
+    // değer ataması yapar, kullanımı zorunlu değil kontrol amaçlı yazıldı.
     void Start()
     {
         countdownTool = gameObject.AddComponent<CountdownTool>();
